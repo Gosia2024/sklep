@@ -7,7 +7,7 @@ const product1: {price:number} = { price: 10 };
 const product2: {price:number} = { price: 20 };
 const discount: number = 10;
 
-const total:number = product1.price + product2.price;
+const total:number = Number(product1.price) + Number(product2.price);
 //total = total - 10
 //total += 10;
 const totalWithDiscount: number = total - 10;

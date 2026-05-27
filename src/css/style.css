@@ -1,0 +1,15 @@
+.card-tabel{
+    width: 100%;
+    border-spacing:  0;
+
+}
+.card-tabel th, 
+.card-tabel td {
+    border: 1px solid rgb(233, 226, 233);
+    padding: 10px;
+    text-align: right;
+}
+
+.card-tabel th {
+    background-color: #ededed;
+}
